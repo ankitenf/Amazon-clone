@@ -7,7 +7,7 @@
   "scripts": {
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
-  "repository": {  
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/ankitenf/Amazon-clone.git"
   },
@@ -18,9 +18,13 @@
   },
   "homepage": "https://github.com/ankitenf/Amazon-clone#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongoose": "^5.11.18"
   },
   "devDependencies": {
+    "eslint": "^7.21.0",
     "nodemon": "^2.0.7"
   }
 }
